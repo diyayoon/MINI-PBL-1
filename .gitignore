@@ -1,12 +1,21 @@
-# Python venv (Windows/Linux)
+# Python
+__pycache__/
+*.py[cod]
 .venv/
 venv/
-Stego-web/Back-end/.venv-linux/
-**/.venv-linux/
 
-# Python cache
-__pycache__/
-*.pyc
+# Environment variables
+.env
+.env.*
+!.env.example
 
-# VS Code
+# Editor and operating system files
 .vscode/
+.DS_Store
+Thumbs.db
+
+# Generated uploads and outputs
+Back-end/storage/uploads/*
+!Back-end/storage/uploads/.gitkeep
+Back-end/storage/outputs/*
+!Back-end/storage/outputs/.gitkeep

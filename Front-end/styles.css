@@ -33,7 +33,7 @@ body{
   position: fixed;
   inset: 0;
   pointer-events: none;
-  background: url("background-web.jpg") center/cover no-repeat;
+  background: url("assets/background-web.jpg") center/cover no-repeat;
   opacity: 1;
 }
 
